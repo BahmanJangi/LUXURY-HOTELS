@@ -1,0 +1,863 @@
+@font-face {
+  font-family: AGramond;
+  src: url("Fonts/AGaramondPro-Bold.otf") format("opentype");
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,500&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  /* Home */
+
+  position: relative;
+  width: 1920px;
+  height: 3243px;
+
+  background: #ffffff;
+}
+.header /*Header background image*/ {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+  object-fit: cover;
+  background-image: url("images/Mask\ Group.png");
+}
+.luxurybox-header {
+  position: absolute;
+  left: 11.09%;
+  right: 75.57%;
+  top: 0%;
+  bottom: 95.41%;
+  border: 10px solid #e0b973;
+  width: 256px;
+  height: 149px;
+  background-color: #e0b973;
+  border-bottom-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+}
+.luxurytext-headerbox {
+  /* LUXURY */
+
+  position: absolute;
+  left: 13.23%;
+  right: 77.08%;
+  top: 1.36%;
+  bottom: 97.16%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+  padding-top: 12%;
+  letter-spacing: 0.15em;
+
+  color: #14274a;
+}
+.hoteltext-headerbox {
+  /* HOTELS */
+
+  position: absolute;
+  left: 15.26%;
+  right: 79.32%;
+  top: 2.65%;
+  bottom: 96.79%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  /* identical to box height */
+
+  letter-spacing: 0.6em;
+
+  color: #14274a;
+  padding-top: 28%;
+  padding-left: 13%;
+}
+ul.menubar {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  padding-top: 25px;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 14px;
+
+  margin-right: 5%;
+}
+li.menubar {
+  top: 1.82%;
+
+  color: #ffffff;
+
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+a,
+a:link,
+a:hover,
+a:active,
+a:enabled {
+  text-decoration: none;
+  color: #ffffff;
+}
+.welcometo {
+  /* WELCOME TO */
+
+  position: absolute;
+  left: 11.13%;
+  right: 70.18%;
+  margin-top: 15.55%;
+  margin-bottom: 87.57%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 61px;
+  /* width: 359px;
+  height: 61px; */
+  /* identical to box height */
+
+  color: #ffffff;
+}
+.luxury-text-on-pic {
+  /* LUXURY */
+
+  position: absolute;
+  margin-left: 11.11%;
+  margin-right: 52.54%;
+  margin-top: 17.03%;
+  margin-bottom: 83.84%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 154px;
+  line-height: 185px;
+  letter-spacing: 0.07em;
+
+  color: #ffffff;
+}
+.hotels-text-on-pic {
+  /* HOTELS */
+
+  position: absolute;
+  margin-left: 11.09%;
+  margin-right: 70.47%;
+  margin-top: 24.59%;
+  margin-bottom: 81.19%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+
+  letter-spacing: 0.4em;
+
+  color: #ffffff;
+}
+.comment-text-book-on-pic {
+  /* Book your stay and enjoy Luxury redefined at the most affordable rates. */
+
+  position: absolute;
+  margin-left: 11.11%;
+  margin-right: 58.95%;
+  margin-top: 27.81%;
+  margin-bottom: 79.34%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+
+  width: 575px;
+  height: 60px;
+}
+.bottom-box-book-now {
+  /* Rectangle 1090 */
+
+  position: absolute;
+  margin-left: 43.02%;
+  margin-right: 43.02%;
+  margin-top: 38.99%;
+  margin-bottom: 73.6%;
+
+  background: #e0b973;
+  border-radius: 10px;
+
+  width: 268px;
+  height: 78px;
+}
+.bottom-box-book-now-text {
+  /* BOOK NOW */
+
+  position: absolute;
+  left: 30.08%;
+  right: 44.74%;
+  padding-top: 9.67%;
+  padding-bottom: 74.44%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ffffff;
+
+  width: 157px;
+  height: 29px;
+}
+.bottom-box-book-now-icon {
+  /* Vector */
+
+  position: absolute;
+  left: 12.69%;
+  right: 53.85%;
+  padding-top: 10.77%;
+  padding-bottom: 74.51%;
+
+  width: 28px;
+  height: 23.33px;
+}
+.scroll {
+  /* Scroll */
+
+  position: absolute;
+  left: 47.92%;
+  right: 47.97%;
+  top: 85.86%;
+  bottom: 70.21%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.subtraction {
+  /* Subtraction 2 */
+
+  position: absolute;
+  left: 48.45%;
+  right: 48.4%;
+  top: 90.25%;
+  bottom: 67.87%;
+}
+.text-ofter-head-pic {
+  /* All our room types are including complementary breakfast */
+
+  position: absolute;
+  left: 22.5%;
+  right: 22.55%;
+  top: 35.86%;
+  bottom: 62.78%;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #14274a;
+
+  /* border: 0.5px solid #14274A; */
+}
+.line3 {
+  /* Line 3 */
+
+  position: absolute;
+  width: 0px;
+  height: 334px;
+  left: 7.89%;
+  right: 92.11%;
+  top: 43.93%;
+  bottom: 45.78%;
+
+  border: 2px solid #14274a;
+}
+.luxury-redefined {
+  /* Luxury redefined */
+
+  position: absolute;
+  left: 10.42%;
+  right: 66.72%;
+  top: 43.42%;
+  bottom: 54.36%;
+
+  font-family: "AGramond", sans-serif;
+
+  width: 460px;
+  height: 72px;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+
+  letter-spacing: 0.02em;
+
+  color: #14274a;
+}
+/* .grid {
+  column-count: 3;
+  -moz-column-count: 3; 
+  -webkit-column-count: 3; 
+} */
+.line3 {
+  /* Line 3 */
+
+  position: absolute;
+  left: 7.89%;
+  right: 92.11%;
+  top: 43.93%;
+  bottom: 45.78%;
+
+  border: 2px solid #14274a;
+}
+.our-rooms-text {
+  /* Our rooms are designed to transport you into an environment made for leisure. Take your mind off the day-to-day of home life and find a private paradise for yourself. */
+
+  position: absolute;
+  left: 10.42%;
+  right: 61.35%;
+  top: 46.41%;
+  bottom: 48.66%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+
+  width: 542px;
+  height: 160px;
+
+  color: #14274a;
+
+  /* border: 0.3px solid #14274a; */
+}
+.center-first-pic {
+  /* Rectangle 1093 */
+
+  position: absolute;
+  left: 44.53%;
+  right: 10.36%;
+  top: 40.09%;
+  bottom: 42.06%;
+
+  background: rgba(20, 39, 74, 0.2);
+}
+.button-center-first {
+  /* Rectangle 1090 */
+
+  position: absolute;
+  left: 10.42%;
+  right: 77.29%;
+  top: 52.27%;
+  bottom: 45.79%;
+
+  background: #e0b973;
+
+  width: 236px;
+  height: 63px;
+
+  border-radius: 10px;
+}
+.explore-text-first {
+  /* EXPLORE */
+
+  position: absolute;
+  left: 14.02%;
+  right: 80.62%;
+  top: 52.82%;
+  bottom: 46.44%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+
+  /* border: 1px solid #ffffff; */
+}
+.line4 {
+  /* Line 4 */
+
+  position: absolute;
+  left: 7.89%;
+  right: 92.11%;
+  top: 60.92%;
+  bottom: 25.73%;
+
+  border: 2px solid #14274a;
+}
+.leave-text {
+  /* Leave your worries in the sand */
+
+  position: absolute;
+  left: 10.42%;
+  right: 60.26%;
+  top: 60.41%;
+  bottom: 35.15%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: 0.02em;
+
+  color: #14274a;
+}
+.we-love-text {
+  /* We love life at the beach. Being close to the ocean with access to endless sandy beach ensures a relaxed state of mind. It seems like time stands still watching the ocean. */
+
+  position: absolute;
+  left: 10.42%;
+  right: 62.34%;
+  top: 65.22%;
+  bottom: 28.62%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 40px;
+  /* or 160% */
+
+  color: #14274a;
+
+  /* border: 0.3px solid #14274a; */
+}
+.center-second-pic {
+  position: absolute;
+  left: 44.58%;
+  right: 10.39%;
+  top: 60.07%;
+  bottom: 24.93%;
+}
+.button-center-second {
+  /* Rectangle 1090 */
+
+  position: absolute;
+  left: 10.42%;
+  right: 77.29%;
+  top: 72.31%;
+  bottom: 25.75%;
+
+  background: #e0b973;
+
+  width: 236px;
+  height: 63px;
+
+  border-radius: 10px;
+}
+
+.explore-text-second {
+  /* EXPLORE */
+
+  position: absolute;
+  left: 14.02%;
+  right: 80.62%;
+  top: 72.86%;
+  bottom: 26.4%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+
+  /* border: 1px solid #FFFFFF; */
+}
+
+.testimonials {
+  /* Testimonials */
+
+  position: absolute;
+  left: 41.98%;
+  right: 41.93%;
+  top: 78.63%;
+  bottom: 19.15%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #14274a;
+}
+
+.calm {
+  /* "Calm, Serene, Retro – What a way to relax and enjoy" */
+
+  position: absolute;
+  left: 29.22%;
+  right: 29.22%;
+  top: 81.65%;
+  bottom: 17.21%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #14274a;
+
+  /* border: 0.5px solid #14274a; */
+}
+.mr {
+  /* Mr. and Mrs. Baxter, UK */
+
+  position: absolute;
+  left: 42.29%;
+  right: 42.24%;
+  top: 83.38%;
+  bottom: 15.7%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #14274a;
+
+  /* border: 0.2px solid #14274a; */
+}
+
+.button-right {
+  /* Rectangle 1072 */
+
+  position: absolute;
+  left: 50.57%;
+  right: 46.82%;
+  top: 85.01%;
+  bottom: 13.44%;
+
+  background: #e0b973;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 10px;
+}
+.path-right-icon {
+  /* Path 36 */
+
+  position: absolute;
+  left: 51.55%;
+  right: 47.44%;
+  top: 85.44%;
+  top: 85.48%;
+  bottom: 14.14%;
+
+  /* background: #ffffff; */
+  /* transform: rotate(-90deg); */
+}
+
+.button-left {
+  /* Rectangle 1092 */
+
+  position: absolute;
+  left: 46.48%;
+  right: 47.92%;
+  top: 85.01%;
+  bottom: 13.44%;
+
+  background: #e0b973;
+  transform: rotate(180deg);
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 10px;
+}
+
+.path-left-icon {
+  position: absolute;
+  left: 47.35%;
+  right: 50.49%;
+  top: 85.48%;
+  bottom: 14.14%;
+  /* 
+  background: #ffffff;
+  transform: rotate(90deg); */
+}
+
+.footer-background-pic {
+  /* Union 3 */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 89.92%;
+  bottom: 0.19%;
+
+  /* background: #14274a; */
+}
+
+.luxury-text-in-footer {
+  /* LUXURY */
+
+  position: absolute;
+  left: 9.64%;
+  right: 84.22%;
+  top: 94.36%;
+  bottom: 4.47%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.15em;
+
+  color: #ffffff;
+}
+
+.hotels-text-in-footer {
+  /* HOTELS */
+
+  position: absolute;
+  left: 10.89%;
+  right: 85.83%;
+  top: 95.28%;
+  bottom: 4.47%;
+
+  font-family: "AGramond", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 9px;
+  line-height: 11px;
+  letter-spacing: 0.6em;
+
+  color: #ffffff;
+}
+
+.contact-us-information-in-footer {
+  /* 497 Evergreen Rd. Roseville, CA 95673 +44 345 678 903 luxury_hotels@gmail.com */
+
+  position: absolute;
+  left: 9.64%;
+  right: 76.61%;
+  top: 96.21%;
+  bottom: 2.22%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #ffffff;
+
+  /* border: 0.1px solid #ffffff; */
+}
+
+.about-us-in-footer {
+  /* About Us Contact Terms & Conditions */
+
+  position: absolute;
+  left: 35.83%;
+  right: 56.09%;
+  top: 94.36%;
+  bottom: 2.56%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f7f7f7;
+
+  /* border: 0.5px solid #ffffff; */
+}
+
+.visit-links-in-footer {
+  /* Facebook Twitter Instagram */
+
+  position: absolute;
+  left: 56.72%;
+  right: 38.91%;
+  top: 94.36%;
+  bottom: 3.08%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 194.9%;
+  /* or 31px */
+
+  color: #f7f7f7;
+
+  /* border: 0.5px solid #ffffff; */
+}
+
+.face-book-icon {
+  /* Path 38 */
+
+  position: absolute;
+  left: 54.38%;
+  right: 45.12%;
+  top: 94.46%;
+  bottom: 4.96%;
+
+  /* background: #ffffff; */
+}
+
+.twitter-icon {
+  /* Path 39 */
+
+  position: absolute;
+  left: 54.38%;
+  right: 44.65%;
+  top: 95.49%;
+  bottom: 4.05%;
+
+  /* background: #ffffff; */
+}
+
+.instagram-icon {
+  /* Path 40 */
+
+  position: absolute;
+  left: 54.38%;
+  right: 44.65%;
+  top: 96.43%;
+  bottom: 2.99%;
+
+  /* background: #ffffff; */
+}
+
+.subscribe-in-footer {
+  /* Subscribe to our newsletter */
+
+  position: absolute;
+  left: 71.56%;
+  right: 16.93%;
+  top: 94.36%;
+  bottom: 5.03%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* border: 0.5px solid #ffffff; */
+}
+
+.email-text-box-bgrd-in-footer {
+  /* Vector */
+
+  position: absolute;
+  left: 71.56%;
+  right: 13.85%;
+  top: 95.87%;
+  bottom: 2.53%;
+
+  width: 360px;
+  height: 52px;
+
+  background: #e0b973;
+
+  border-radius: 5px;
+}
+
+.email-text-box-in-footer {
+  /* Vector */
+
+  position: absolute;
+  left: 71.61%;
+  right: 13.91%;
+  top: 95.9%;
+  bottom: 2.56%;
+
+  width: 278px;
+  height: 46px;
+
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  background-color: #14274a;
+
+  /* border: 2px solid #e0b973; */
+}
+.ok-text-in-footer {
+  /* OK */
+
+  position: absolute;
+  left: 87.48%;
+  right: 11.22%;
+  top: 96.3%;
+  bottom: 3.08%;
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #14274a;
+
+  /* border: 0.5px solid #14274A; */
+}
+input[type="email"] {
+  /* Email Address */
+
+  position: absolute;
+  /* left: 72.92%;
+  right: 21.09%;
+  top: 96.33%;
+  bottom: 3.05%; */
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  /* border: 0.5px solid #ffffff; */
+}
